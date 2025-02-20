@@ -1563,6 +1563,15 @@
   .bg-\[url\(\/img\/hero\.jpg\)\] {
     background-image: url(/img/hero.jpg);
   }
+  .bg-\[url\(img\/about\.jpg\)\] {
+    background-image: url(img/about.jpg);
+  }
+  .bg-\[url\(img\/crew\.jpg\)\] {
+    background-image: url(img/crew.jpg);
+  }
+  .bg-\[url\(img\/hero\.jpg\)\] {
+    background-image: url(img/hero.jpg);
+  }
   .bg-none {
     background-image: none;
   }
