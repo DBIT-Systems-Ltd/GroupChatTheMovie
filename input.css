@@ -1,1 +1,12 @@
 @import "tailwindcss";
+
+@font-face {
+	font-family: "DoctorGlitch";
+	src: url("./resources/DoctorGlitch.otf") format("opentype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+.DoctorGlitch {
+	font-family: "DoctorGlitch", sans-serif;
+}

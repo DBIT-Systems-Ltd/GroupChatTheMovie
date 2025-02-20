@@ -6,6 +6,47 @@
 		<link href="output.css" rel="stylesheet" />
 	</head>
 	<body class="bg-black text-gray-100">
-		<h1 class="text-3xl font-bold bg-amber-400">Hello world!</h1>
+		<!-- Hero Section -->
+		<header class="h-screen flex flex-col justify-center items-center text-left px-6 bg-[url(/img/hero.jpg)] bg-cover bg-center bg-no-repeat lg:items-baseline lg:justify-end">
+			<div class="flex flex-col items-center lg:ml-20 lg:mb-20 lg:items-start transition-all duration-300">
+				<h1 class="text-5xl font-bold text-red-500 xl:text-8xl DoctorGlitch">GROUPCHAT</h1>
+				<p class="text-xl text-gray-300 mt-4 xl:text-4xl">A Dan Brownlie Film</p>
+				<a href="#trailer" class="mt-6 px-6 py-3 bg-red-600 text-white rounded hover:bg-red-700 xl:text-3xl">Watch Trailer</a>
+			</div>
+		</header>
+
+		<!-- Trailer Section -->
+		<section id="trailer" class="py-16 text-center">
+			<h2 class="text-3xl font-bold">Official Trailer</h2>
+			<div class="mt-6 max-w-4xl mx-auto">
+				<iframe class="w-full aspect-video" src="https://www.youtube.com/embed/YOUR_TRAILER_ID" frameborder="0" allowfullscreen></iframe>
+			</div>
+		</section>
+
+		<!-- About Section -->
+		<section id="about" class="py-16 px-6 max-w-3xl mx-auto text-center">
+			<h2 class="text-3xl font-bold text-red-500">About the Film</h2>
+			<p class="text-lg text-gray-300 mt-4">
+				After months of absence, Games Master Dean has come back with a brand-new online campaign. What started as a fun game turns into a brutal fight for survival.
+			</p>
+			<a href="about.html" class="mt-6 inline-block px-6 py-3 bg-gray-800 text-white rounded hover:bg-gray-700">Read More</a>
+		</section>
+
+		<!-- Cast & Crew Section -->
+		<section id="cast" class="py-16 text-center">
+			<h2 class="text-3xl font-bold">Meet the Cast & Crew</h2>
+			<p class="text-lg text-gray-300 mt-4">See the faces behind the film.</p>
+			<a href="cast.html" class="mt-6 inline-block px-6 py-3 bg-gray-800 text-white rounded hover:bg-gray-700">View Cast</a>
+		</section>
+
+		<!-- Contact Section -->
+		<section id="contact" class="py-16 text-center">
+			<h2 class="text-3xl font-bold">Contact</h2>
+			<p class="text-lg text-gray-300 mt-4">For press inquiries, reach us at:</p>
+			<p class="text-xl font-bold text-red-500 mt-2">groupchatthemovie@gmail.com</p>
+		</section>
+
+		<!-- Footer Section -->
+		<footer class="py-6 text-center text-gray-500">&copy; 2025 Groupchat - The Movie. All rights reserved.</footer>
 	</body>
 </html>
