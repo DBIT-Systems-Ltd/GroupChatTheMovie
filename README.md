@@ -24,10 +24,6 @@ After months of absence, **Games Master Dean** has returned with a brand-new onl
 For press inquiries, contact:  
 📧 **Email:** [groupchatthemovie@gmail.com](mailto:groupchatthemovie@gmail.com)
 
-🎬 **Follow us on Social Media:**  
-📷 Instagram: [@groupchatmovie](#)  
-🐦 Twitter/X: [@groupchatmovie](#)
-
 ## 📜 License
 This project is licensed under the **MIT License**. Feel free to contribute or modify as needed.
 
